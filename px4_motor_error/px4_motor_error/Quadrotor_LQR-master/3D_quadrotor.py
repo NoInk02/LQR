@@ -101,6 +101,10 @@ Byaw = np.array(
     [[0.0],
      [1 / Iz]])
 
+
+
+
+
 ####################### solve LQR #######################
 Ks = []  # feedback gain matrices K for each subsystem
 for A, B in ((Ax, Bx), (Ay, By), (Az, Bz), (Ayaw, Byaw)):

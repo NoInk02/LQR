@@ -104,7 +104,12 @@ class MotorFailureDetectionNode(Node):
                 msg.data = self.motor_number
                 self.error_publisher.publish(msg)
 
+
+                """ ---- ---- ---- ---- """
                 # Attach LQR here...
+                """ ---- ---- ---- ---- """
+
+
 
 
     def get_motor_failure_number(self,data):
